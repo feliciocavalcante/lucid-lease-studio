@@ -22,7 +22,7 @@ export const EditCarDialog = ({ car }: EditCarDialogProps) => {
     category: car.category,
     transmission: car.transmission,
     fuel: car.fuel,
-    seats: car.seats.toString(),
+    seats: car.seats?.toString(),
     image: car.image,
     available: car.available
   });
